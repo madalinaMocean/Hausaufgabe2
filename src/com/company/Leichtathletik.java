@@ -1,9 +1,7 @@
 package com.company;
 
-public class Leichtathletik implements Sport{
+public abstract class Leichtathletik implements Sport{
 
     @Override
-    public double kalkuliereZeit() {
-        return 0;
-    }
+    public abstract double kalkuliereZeit();
 }
